@@ -1,26 +1,26 @@
 class Perfguardian < Formula
   desc "Static performance analyser for C++20 codebases"
   homepage "https://github.com/Sambit-Kumar-Mohanty-26/PerfGuardian"
-  version "0.2.1"
+  version "0.3.0"
   license "MIT"
 
   depends_on "llvm"
 
   on_macos do
     on_arm do
-      url "https://github.com/Sambit-Kumar-Mohanty-26/PerfGuardian/releases/download/v0.2.1/perfguardian-macos-arm64.tar.gz"
-      sha256 "bf13843fc4b56cd00658f358ccca81badb75cc709965395b559785b45d94f9d3"
+      url "https://github.com/Sambit-Kumar-Mohanty-26/PerfGuardian/releases/download/v0.3.0/perfguardian-macos-arm64.tar.gz"
+      sha256 "8391ab57c345d7890feec98b19eed01f566fdd074086ce5d1acc5376dcabc998"
     end
     on_intel do
-      url "https://github.com/Sambit-Kumar-Mohanty-26/PerfGuardian/releases/download/v0.2.1/perfguardian-macos-x86_64.tar.gz"
-      sha256 "68b8079b665cf6355e3a266b7aac2c13bc404bfbf7931374f6e293c976585228"
+      url "https://github.com/Sambit-Kumar-Mohanty-26/PerfGuardian/releases/download/v0.3.0/perfguardian-macos-x86_64.tar.gz"
+      sha256 "3d92cdbbf075fc365bd522020b6a7d72a65d453b85611ad26340a4a3a8a6a123"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Sambit-Kumar-Mohanty-26/PerfGuardian/releases/download/v0.2.1/perfguardian-linux-x86_64.tar.gz"
-      sha256 "f75ddc837d9d8d063fdd49558e548a0d5cbb71c9257b967a52297514b98f356e"
+      url "https://github.com/Sambit-Kumar-Mohanty-26/PerfGuardian/releases/download/v0.3.0/perfguardian-linux-x86_64.tar.gz"
+      sha256 "b97ff0fa8355a400c9b72206b7af9655c39cba23f6ce36d942330d1db1fa246f"
     end
   end
 
