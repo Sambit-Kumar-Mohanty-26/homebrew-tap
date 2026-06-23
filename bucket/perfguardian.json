@@ -1,12 +1,12 @@
 {
-    "version": "0.4.0",
+    "version": "1.0.0",
     "description": "Static performance analyser for C++20 codebases",
     "homepage": "https://github.com/Sambit-Kumar-Mohanty-26/PerfGuardian",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Sambit-Kumar-Mohanty-26/PerfGuardian/releases/download/v0.4.0/perfguardian-windows-x86_64.zip",
-            "hash": "ce1b872cd7776f7d2a385e434ad42d29bacbd80fde237b37405fcd9a48f3df84"
+            "url": "https://github.com/Sambit-Kumar-Mohanty-26/PerfGuardian/releases/download/v1.0.0/perfguardian-windows-x86_64.zip",
+            "hash": "66ffbc53e0d8b1d02fbb4dfea398df94af135850a6a238ca671aa394e3039021"
         }
     },
     "bin": "perfguardian.exe",
